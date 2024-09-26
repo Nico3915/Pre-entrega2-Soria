@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 500px;
+    background-color: rgb(103, 173, 234);
+    
+}
+/* titulo de inicio */
+.tit_inicio{
+    background: #007bff;
+    color: white;
+    padding:  0;
+    text-align: center;
+    height: 100%;
+}
+/* titulo de inicio */
+.tit_inicio1{
+    text-align: center;
+}
+
+/* img de encabezamiento */
+img{height: 100%;
+    width: 100%;
+}
+/* img de inicio */
+.imgs24{
+    width: 300px;
+    height: 500px;
+}
+/* img de inicio */
+.imgfold{
+    width: 300px;
+    height: 450px;
+}
+/* img de inicio */
+.imgA35{
+    width: 300px;
+    height: 650px;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+/* titulo */
+h1{
+    font-size:30px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* parrafo de inicio */
+section{
+    display: flexbox;
+    align-items: unsafe;
+ }
+    
+ /* enlaces de contactos */
+.enlaces{
+    height: 10%;
+    background-color: rgb(1, 12, 12);
+    font-style: italic;
+    
+}
+
+.img contactos{height: 100%;
+    width: 100%;
+}
+
+
+
+.registrate{
+    
+    width: 19%;
+    text-align: center;
+    padding-top: 1%;
+    height: 100%
+}
+/* lista de productos */
+.lista2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+
+li{
+    text-align: -webkit-match-parent;
+}
+
+
+/* boton de productos */
+.boton_carta{
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    color: rgb(241, 239, 239);
+    font-size: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* img de productos */
+
+
+/* body de productos */
+.body2 {
+    font-family: Arial, sans-serif;
+    background-color: #3e7bc0;
+    margin: 0;
+    padding: 0;
+}
+/* registro */
+.registro {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* h2 de registro */
+.h2_reg{
+    text-align: center;
+}
+/* entradas de registro */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+/* titulo de registro */
+.tit_regis{
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+
+}
+/* registro titulo */
+.tit_regis1{
+    text-align: center;
+}
+ /* titulo de ubicacion */
+.tit_ubi{
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+}
+/* titulo de ubicacon */
+.tit_ubi1{
+    text-align: center;
+}
+
+/*  */
+
+/*body contactos */
+.body1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4e4e4e;
+}
+/* titulo de contacto */
+.tit_contactos {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+
+}
+/* contacto */
+.contactos_1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* contactos titulo 1 */
+.tit_cont1{
+    text-align: center;
+}
+/* contactos titulo 2 */
+.tit_cont2{
+    text-align: center;
+}
+
+/* formulario de contacto */
+.contact-info {
+    margin-bottom: 30px;
+}
+.contact-info p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.contac_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+textarea {
+    height: 100px;
+}
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.imput_1[type="submit"]:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    grid-column: span 2;
+}
+.exito {
+    color: green;
+    font-size: 0.9em;
+    grid-column: span 2;
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Columna única en pantallas pequeñas */
+    }
+}
+
+
+
+
+/* productos */
+main{
+    display: grid;
+}
+/* img de productos */
+.img_prod{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tit_pro{
+    background: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 80px;
+}
+.tit_pro1{
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    header{
+        height: 300px;
+    }
+    nav{
+        height: 260px;
+    }
+    main{
+        height: 2000px;
+        background-color: gray;
+    }
+    footer{
+        height: 100px;
+        background-color: rgb(19, 19, 19);
+    }
+    ul{ 
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+/* grilla de productos */
+#grilla{
+    grid-template-columns: 90%;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+    grid-template-areas: "foto1"
+                         "foto2"
+                          "foto3"
+                          "foto4"
+                          "foto5"
+                          "foto6";
+    align-content: space-around;
+    justify-content: center;
+}
+
+@media only screen and (min-width:600px){
+    header{
+        height: 500px;
+    }
+    ul{
+        height: 80px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        color:rgb(222, 221, 221);
+
+        font-size:20px;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+/* grilla de productos */
+    #grilla{
+        height: 1700px;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 400px 300px 300px 400px;
+        grid-template-areas: "foto1 foto1"
+                             "foto2 foto3"
+                             "foto4 foto5"
+                             "foto6 foto6";
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+   /* div de productos */
+    #hijoUno{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hijodos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hijotres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hijocuatro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hijocinco{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #hijoseis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
