@@ -1,0 +1,474 @@
+/* estilo generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+ /* estilo pagina principal */
+/* portada Principal */
+.portada-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Ajusta el tamaño de la portada */
+       
+}
+
+.portada-principal img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/* Responsivo para celular */
+@media (max-width: 600px) {
+    .portada-principal {
+        height: auto; /* Elimina la altura fija en móviles */
+        
+    }
+}
+
+/* fin de portada */
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/* titulo de inicio */
+.titulo-inicio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    font-size: 36px;
+      
+}
+
+/* Estilo general */
+.descripcion-principal {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.descripcion-principal h3 {
+    color: #007bff;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.descripcion-principal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.descripcion-principal p strong {
+    font-weight: bold;
+}
+
+/* medias para celulares */
+@media (max-width: 480px) {
+    .descripcion-principal {
+        padding: 10px;
+    }
+
+    .descripcion-principal h3 {
+        font-size: 20px;
+    }
+
+    .descripcion-principal p {
+        font-size: 14px;
+    }
+}
+ /* fin pagina principal */
+
+
+/* parrafo de inicio */
+section{
+    display: flexbox;
+    align-items: unsafe;
+ }
+    
+ /* enlaces de contactos */
+.enlaces{
+    height: 10%;
+    background-color: rgb(1, 12, 12);
+    font-style: italic;
+    
+}
+
+.img contactos{height: 100%;
+    width: 100%;
+}
+
+
+
+.registrate{
+    
+    width: 19%;
+    text-align: center;
+    padding-top: 1%;
+    height: 100%
+}
+/* lista de productos */
+.lista2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+
+
+
+/* boton de productos */
+.boton_carta{
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    color: rgb(241, 239, 239);
+    font-size: 20px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* registro */
+.registro {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* entradas de registro */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+/* titulo de registro */
+.tit_regis{
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+
+}
+/* registro titulo */
+.tit_regis1{
+    text-align: center;
+}
+ /* titulo de ubicacion */
+.tit_ubi{
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+}
+/* titulo de ubicacon */
+.tit_ubi1{
+    text-align: center;
+}
+
+.div_ubi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/*body contactos */
+.body1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4e4e4e;
+}
+/* titulo de contacto */
+.tit_contactos {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+
+}
+/* contacto */
+.contactos_1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* contactos titulo 1 */
+.tit_cont1{
+    text-align: center;
+}
+/* contactos titulo 2 */
+.tit_cont2{
+    text-align: center;
+}
+
+/* formulario de contacto */
+.contact-info {
+    margin-bottom: 30px;
+}
+.contact-info p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.contac_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+textarea {
+    height: 100px;
+}
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.imput_1[type="submit"]:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    grid-column: span 2;
+}
+.exito {
+    color: green;
+    font-size: 0.9em;
+    grid-column: span 2;
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Columna única en pantallas pequeñas */
+    }
+}
+
+
+
+
+
+/* Grilla de pagina de productos */
+#grilla {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr; /* Distribución flexible */
+    grid-template-rows: 500px 350px 350px 500px;
+    grid-template-areas: 
+        "hijouno hijouno"
+        "hijodos hijotres"
+        "hijocuatro hijocinco"
+        "hijoseis hijoseis";
+    gap: 100px;
+}
+
+/* Div de productos */
+#hijoUno, 
+.hijodos, 
+.hijotres, 
+.hijocuatro, 
+.hijocinco, 
+#hijoseis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+#hijoUno {
+    grid-area: hijouno;
+}
+
+.hijodos {
+    grid-area: hijodos;
+}
+
+.hijotres {
+    grid-area: hijotres;
+}
+
+.hijocuatro {
+    grid-area: hijocuatro;
+}
+
+.hijocinco {
+    grid-area: hijocinco;
+}
+
+#hijoseis {
+    grid-area: hijoseis;
+}
+
+/* Imágenes dentro de los productos */
+#grilla img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    #grilla {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+        gap: 30px;
+    }
+}
+/* fin grilla */
+
+
+
+/* footer y su vista celular */
+.pie {
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.columna h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columna p, .columna a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.icono {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.icono:hover {
+    color: #007bff;
+}
+
+.campo {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.boton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+.texto-centro {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .fila {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .columna {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
